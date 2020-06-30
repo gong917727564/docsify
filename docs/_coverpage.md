@@ -2,7 +2,7 @@
 
 # Alex Study Doc <small>v1.0</small>
 
-- ## Record learning life。
+- ## Record learning life
 
 <!-- - 报告人： Alex -->
 
