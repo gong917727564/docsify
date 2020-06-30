@@ -4,7 +4,7 @@
 
 - ## Record learning life。
 
-- 报告人： Alex
+<!-- - 报告人： Alex -->
 
 [GitHub](https://github.com/gong917727564/docsify)
 [开始阅读](README.md)
