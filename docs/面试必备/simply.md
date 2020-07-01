@@ -519,17 +519,3 @@ If-None-Match: "15f0fff99ed5aae4edffdd6496d7131f"
 
 > 防范：用户操作验证（验证码），额外验证机制（`token`使用）等
 
-
-
-<script>
-export default {
-  mounted () {
-    var script = document.createElement("script");
-    script.type = "text/javascript"
-    script.charset="UTF-8"
-    script.src = "http://tajs.qq.com/stats?sId=59154049"
-    document.body.appendChild(script);
-
-  }
-}
-</script>

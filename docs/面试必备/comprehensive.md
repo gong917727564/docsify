@@ -166,16 +166,3 @@
 - [总结了17年初到18年初百场前端面试的面试经验(含答案)](https://juejin.im/post/5b44a485e51d4519945fb6b7)
 - [前端基础面试整理(一)](https://juejin.im/post/5c62b92de51d457fd77b22ce?utm_source=gold_browser_extension)
 
-
-<script>
-export default {
-  mounted () {
-    var script = document.createElement("script");
-    script.type = "text/javascript"
-    script.charset="UTF-8"
-    script.src = "http://tajs.qq.com/stats?sId=59154049"
-    document.body.appendChild(script);
-
-  }
-}
-</script>
