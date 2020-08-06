@@ -1,5 +1,5 @@
-``` js
-前端性能优化之gzip
+## 前端性能优化之gzip
+
 gzip是GNUzip的缩写，它是一个GNU自由软件的文件压缩程序。它最早由Jean-loup Gailly和Mark Adler创建，用于UNⅨ系统的文件压缩。我们在Linux中经常会用到后缀为.gz的文件，它们就是GZIP格式的。现今已经成为Internet 上使用非常普遍的一种数据压缩格式，或者说一种文件格式。
 
 HTTP协议上的GZIP编码是一种用来改进WEB应用程序性能的技术。大流量的WEB站点常常使用GZIP压缩技术来让用户感受更快的速度。减少文件大小有两个明显的好处，一是可以减少存储空间，二是通过网络传输文件时，可以减少传输的时间。
@@ -8,7 +8,7 @@ HTTP协议上的GZIP编码是一种用来改进WEB应用程序性能的技术。
 
 下面就以Vue项目为例，介绍一下gzip的使用（vue-cli 2.*）
 
-1、在/config/index.js中，修改配置开启gzip
+### 1、在/config/index.js中，修改配置开启gzip
 
 // Gzip off by default as many popular static hosts such as
 // Surge or Netlify already gzip all static assets for you.
@@ -22,7 +22,7 @@ productionGzipExtensions: ['js', 'css'],
 npm uninstall --save-dev compression-webpack-plugin
 npm install --save-dev compression-webpack-plugin@1.1.12
 
-2、在nginx中开启gzip，/nginx/conf/nginx.conf中添加gzip配置
+### 2、在nginx中开启gzip，/nginx/conf/nginx.conf中添加gzip配置
 
 http:{ 
   #启用或禁用gzipping响应。#
@@ -48,7 +48,5 @@ http:{
 而Request Headers里面的Accept-Encoding: gzip只是表示前端（用户浏览器）支持gzip的压缩方式。
 
 服务器支持gzip的方式可以有两种：
-1、打包的时候生成对应的.gz文件，浏览器请求xx.js时，服务器返回对应的xxx.js.gz文件
-2、浏览器请求xx.js时，服务器对xx.js进行gzip压缩后传输给浏览器
-
-```
+#### 1、打包的时候生成对应的.gz文件，浏览器请求xx.js时，服务器返回对应的xxx.js.gz文件
+#### 2、浏览器请求xx.js时，服务器对xx.js进行gzip压缩后传输给浏览器
