@@ -11,11 +11,7 @@
     />
 
     <!-- 主题设置 -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
-      id="theme"
-    />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css" id="theme"> -->
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" id="theme"> -->
     <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/pure.css" id="theme"> -->
@@ -26,33 +22,40 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
 
     <style>
-      html,
-      body {
-        overflow: hidden;
-      }
-
-      .content {
-        padding: 0;
-      }
-
       .cover-main a img {
         width: 1.2rem;
         vertical-align: middle;
       }
-
       section.cover .cover-main > p:last-child a:first-child {
         font-weight: 600;
       }
-
       .markdown-section {
-        padding: 60px 60px;
-        max-width: 100%;
-        max-height: 937px;
-        overflow-y: scroll;
+        padding: 30px 0;
+        max-width: 90%;
       }
-
       .medium-zoom-image {
         max-width: 60%;
+      }
+
+      ::-webkit-scrollbar {
+        /*滚动条整体样式*/
+        width: 8px;
+        /*高宽分别对应横竖滚动条的尺寸*/
+        height: 100px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        /*滚动条里面小方块*/
+        border-radius: 14px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #47b984;
+      }
+
+      ::-webkit-scrollbar-track {
+        /*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        /*border-radius: 10px;*/
+        background: #c3c3c3;
       }
     </style>
     <!-- 
@@ -82,25 +85,16 @@
   <body>
     <div id="app"></div>
     <script>
-      // var gitalkConfig = {
-      //   clientID: '3213213',
-      //   clientSecret: '231321',
-      //   accessToken: '321321',
-      //   repo: '321-3213',
-      //   owner: 'sunsmile-ls',
-      //   admin: ['sunsmile-ls'],
-      //   distractionFreeMode: false
-      // }
       window.$docsify = {
         name: 'Alex Learning',
         auto2top: true,
         coverpage: true,
-        loadSidebar: true,
+        // loadSidebar: true,
         // loadNavbar: true,
         loadSidebar: true,
         autoHeader: true,
-        topMargin: 90, // default: 0
-        auto2top: true,
+        // topMargin: 90, // default: 0
+        // auto2top: true,
         maxLevel: 4,
         subMaxLevel: 2,
         search: {

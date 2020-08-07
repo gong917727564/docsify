@@ -108,7 +108,7 @@ let a = {
 
 **== 操作符**
 
-![](https://user-gold-cdn.xitu.io/2018/3/30/16275f89ebf931e9)
+![==](./img/==and===.png)
 
 > 这里来解析一道题目 `[] == ![] // -> true` ，下面是这个表达式为何为 `true` 的步骤
 
@@ -1461,12 +1461,12 @@ self.addEventListener("fetch", e => {
 
 > 打开页面，可以在开发者工具中的 `Application` 看到 `Service Worker` 已经启动了
 
-![](https://user-gold-cdn.xitu.io/2018/3/28/1626b1e8eba68e1c?w=1770&h=722&f=png&s=192277)
+![](./img/serveworks.png)
 
 
 > 在 Cache 中也可以发现我们所需的文件已被缓存
 
-![](https://user-gold-cdn.xitu.io/2018/3/28/1626b20dfc4fcd26?w=1118&h=728&f=png&s=85610)
+![](./img/cache.png)
 
 > 当我们重新刷新页面可以发现我们缓存的数据是从 `Service` `Worker` 中读取的
 

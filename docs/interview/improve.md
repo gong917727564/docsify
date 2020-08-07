@@ -126,7 +126,7 @@ Function.prototype.myApply = function (context) {
 
 ### 6 简单说下原型链？
 
-![](https://user-gold-cdn.xitu.io/2018/9/19/165f189f736f19fd?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![prototype](./img/prototype1.png)
 
 - 每个函数都有 `prototype` 属性，除了 `Function.prototype.bind()`，该属性指向原型。
 - 每个对象都有 `__proto__` 属性，指向了创建该对象的构造函数的原型。其实这个属性指向了 `[[prototype]]`，但是 `[[prototype]] `是内部属性，我们并不能访问到，所以使用 `_proto_ `来访问。
@@ -459,7 +459,7 @@ function resolutionProcedure(promise2, x, resolve, reject) {
 
 ### 14 == 和 ===区别，什么情况用 ==
 
-![](https://user-gold-cdn.xitu.io/2018/3/30/16275f89ebf931e9?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![== and === ](./img/==and===.png)
 
 > 这里来解析一道题目 `[] == ![] // -> true` ，下面是这个表达式为何为 `true` 的步骤
 
@@ -872,7 +872,7 @@ self.addEventListener("fetch", e => {
 
 > 打开页面，可以在开发者工具中的 `Application` 看到 `Service Worker `已经启动了
 
-![](https://user-gold-cdn.xitu.io/2018/3/28/1626b1e8eba68e1c?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](./img/serveworks.png)
 
 ### 6 浏览器缓存
 
@@ -989,7 +989,7 @@ for(let i = 0; i < 1000; i++) {
 - `CSS `选择符从右往左匹配查找，避免 `DOM` 深度过深
 - 将频繁运行的动画变为图层，图层能够阻止该节点回流影响别的元素。比如对于 `video` 标签，浏览器会自动将该节点变为图层。
 
-![](https://user-gold-cdn.xitu.io/2018/3/29/1626fb6f33a6f9d7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![layers](./img/layers.png)
 
 
 **CDN**

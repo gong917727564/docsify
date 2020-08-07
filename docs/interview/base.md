@@ -1,6 +1,6 @@
 # 基础篇
 
-![面试经验谈--来自知乎芋头Live ](http://blog.poetries.top/img-repo/2020/01/23.png)
+![面试经验谈 ](http://blog.poetries.top/img-repo/2020/01/23.png)
 
  ## 一、HTML、HTTP、web综合问题
 
@@ -2974,16 +2974,16 @@ var b = 'Hello world'
 
 ### 88 是否用过 jQuery 的 Deferred
 
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-77a330fbdcc1f1cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-6f79b726f5341f7d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-82ac861eced36a45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-69092d725f2b1e79.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-9d9b67a6859cf8cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-9970b83118b10829.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-243444771c6b30ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-d2db463132d1572a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-c589d6f7caf8b27c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![image.png](https://upload-images.jianshu.io/upload_images/1480597-ab3b7f684e99e6cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](./img/jqbefor1.5.png)
+![image.png](./img/jqafter.5.png)
+![image.png](./img/jq1.5change.png)
+![image.png](./img/jq1.5change1.png)
+![image.png](./img/jqUseDeferred.png)
+![image.png](./img/jqUseDeferred1.png)
+![image.png](./img/jqUseDeferred2.png)
+![image.png](./img/jqUseDeferred3.png)
+![image.png](./img/usePromise.png)
+![image.png](./img/usePromise1.png)
 
 ### 89 前端面试之hybrid
 

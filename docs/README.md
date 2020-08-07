@@ -1,16 +1,16 @@
  > 导航
-* [**导读**](/)
+- [导读](/)
 
-* [**日常记录**](/日常记录/)
+- [日常记录](/dailyRecord/)
 
-* [**Html**](/Html/)
+- [Html](/Html/)
 
-* [**Css**](/Css/)
+- [Css](/Css/)
 
-* [**Js**](/Js/)
+- [Js](/Js/)
 
-* [**Vue**](/Vue/)
+- [Vue](/Vue/)
 
-* [**React**](/React/)
+- [React](/React/)
 
-* [**面试必备**](/面试必备/)
+- [面试必备](/interview/)
