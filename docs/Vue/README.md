@@ -1,1 +1,2 @@
-- [**router 路由守卫**](/Vue/router)
+- [**一. router 路由守卫**](/Vue/router)
+- [**二. Vuex**](/Vue/router)
